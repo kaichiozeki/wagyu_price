@@ -35,6 +35,20 @@ p {
   }
 }
 
+@media screen and (max-width:576px) {
+  #page-top {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #FFA500;
+    z-index: 100;
+  }
+}
 
 .submit-color {
   background-color: #17a2b8;
